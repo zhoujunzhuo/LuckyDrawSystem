@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
             }
 
             InitializeComponent();
-            this.AcceptButton = button1;
+            this.AcceptButton = btnLotter;
         }
 
         private void Form1_Load(object sender, EventArgs e)

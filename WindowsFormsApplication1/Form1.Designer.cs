@@ -32,7 +32,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLotter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,16 +68,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(393, 150);
             this.dataGridView1.TabIndex = 3;
             // 
-            // button1
+            // btnLotter
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(0, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(393, 127);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "点击抽奖";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnLotter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLotter.Location = new System.Drawing.Point(0, 80);
+            this.btnLotter.Name = "btnLotter";
+            this.btnLotter.Size = new System.Drawing.Size(393, 127);
+            this.btnLotter.TabIndex = 4;
+            this.btnLotter.Text = "点击抽奖";
+            this.btnLotter.UseVisualStyleBackColor = true;
+            this.btnLotter.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -85,7 +85,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(393, 357);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLotter);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
@@ -103,7 +103,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLotter;
     }
 }
 
