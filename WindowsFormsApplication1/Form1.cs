@@ -55,6 +55,11 @@ namespace WindowsFormsApplication1
             var count = CandidateList.Count;
             Random rd = new Random(DateTime.Now.Millisecond);
             index = rd.Next(0, count);
+            if (!CandidateList.Any())
+            {
+                this.timer1.Stop();
+                return;
+            }
             textBox1.Text = CandidateList[index];
         }
 
